@@ -4,10 +4,8 @@ export default function Die(props) {
   };
 
   return (
-    <div className="die-face" style={styles}>
-      <h2 className="die-num" onClick={props.holdDice}>
-        {props.number}
-      </h2>
+    <div className="die-face" style={styles} onClick={props.holdDice}>
+      <h2 className="die-num">{props.number}</h2>
     </div>
   );
 }

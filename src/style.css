@@ -20,11 +20,24 @@ main {
     padding: 50px;
 }
 
+.title {
+    font-size: 60px;
+    margin: 0;
+}
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
+}
+
 .dice-container {
     font-size: 40px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 150px;
+    grid-template-columns: repeat(5, minmax(5px,1fr));
+    gap: 100px;
 }
 
 
