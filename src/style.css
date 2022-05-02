@@ -58,8 +58,9 @@ main {
 }
 
 .roll-dice {
+    margin-top: 30px;
     height: 70px;
-    width: 150px;
+    width: 175px;
     border: none;
     border-radius: 16px;
     cursor: pointer;
